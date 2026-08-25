@@ -19,8 +19,8 @@ was (this ADR predates `MovePastAsk`/paging support, and used the old
 `CliCommandOutcomeKind`/"property" terminology KitCli has since renamed
 to `OutcomeKind`/"artefact"):
 
-- [workflow-run-state-machine.md](https://github.com/KitCli/KitCli/blob/main/docs/concepts/workflow-run-state-machine.md) — the state machine and its transition table.
-- [outcomes.md](https://github.com/KitCli/KitCli/blob/main/docs/concepts/outcomes.md) — reusable vs. final outcome kinds.
-- [artefacts.md](https://github.com/KitCli/KitCli/blob/main/docs/concepts/artefacts.md) — how a reusable outcome becomes queryable by a later command.
+- [0010-workflow-run-state-machine.md](https://github.com/KitCli/KitCli/blob/main/docs/concepts/0010-workflow-run-state-machine.md) — the state machine and its transition table.
+- [0006-outcomes.md](https://github.com/KitCli/KitCli/blob/main/docs/concepts/0006-outcomes.md) — reusable vs. final outcome kinds.
+- [0008-artefacts.md](https://github.com/KitCli/KitCli/blob/main/docs/concepts/0008-artefacts.md) — how a reusable outcome becomes queryable by a later command.
 
 This file is kept only as a pointer. See [KitCli#69](https://github.com/KitCli/KitCli/issues/69) for the discussion that retired it.

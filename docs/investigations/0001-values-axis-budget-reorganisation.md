@@ -62,7 +62,7 @@ Build it as two things, sequenced:
 
    **No such output type exists in the CLI today.** Every command currently
    returns a table view model (see
-   [concepts/console-pipeline.md](../concepts/console-pipeline.md)); a checklist is a
+   [concepts/0001-console-pipeline.md](../concepts/0001-console-pipeline.md)); a checklist is a
    different shape of outcome, and building one is a capability in its own
    right rather than a detail of this migration. Tracked separately on the
    Ideas board — this recommendation depends on it, and shouldn't silently

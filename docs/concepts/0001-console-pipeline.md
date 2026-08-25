@@ -1,4 +1,4 @@
-# The console pipeline
+# 0001. The console pipeline
 
 What happens between typing a command and seeing a table — the whole path,
 in one place.
@@ -85,7 +85,7 @@ return OutcomeAs(viewModel);
 ```
 
 The budget always arrives through `SpendfulnessBudgetClient`, never a raw
-client — see [YNAB client layers](ynab-client-layers.md).
+client — see [YNAB client layers](0002-ynab-client-layers.md).
 
 ## Reducing: aggregation knows nothing about tables
 

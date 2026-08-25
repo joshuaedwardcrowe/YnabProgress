@@ -68,9 +68,9 @@ shape. **Skip it for** bug fixes and internal refactors.
 ## Concepts
 
 [`docs/concepts/`](docs/concepts/) explains how the system's pieces fit
-together today — one topic-named file per concept
-([`console-pipeline.md`](docs/concepts/console-pipeline.md),
-[`ynab-client-layers.md`](docs/concepts/ynab-client-layers.md)), seeded from
+together today — one sequentially-numbered file per concept
+([`0001-console-pipeline.md`](docs/concepts/0001-console-pipeline.md),
+[`0002-ynab-client-layers.md`](docs/concepts/0002-ynab-client-layers.md)), seeded from
 [`0000-template.md`](docs/concepts/0000-template.md). Keep them current:
 if a change makes one inaccurate, update it in the same PR.
 

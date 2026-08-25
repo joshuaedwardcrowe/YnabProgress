@@ -1,4 +1,4 @@
-# YNAB client layers
+# 0002. YNAB client layers
 
 How this repo reaches the YNAB API, and where the seam sits.
 

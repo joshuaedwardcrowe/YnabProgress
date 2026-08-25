@@ -84,11 +84,16 @@ pair here to carry it forward otherwise. Number sequentially
 reader wouldn't otherwise re-derive the finding from scratch.
 
 Lead with the verdict — **new complexity** or **no new complexity** — not
-the evidence; the latter closes the spike and opens a fresh ticket. An
-investigation records what was found, not what was decided — that's an
-ADR, which it may justify but doesn't replace. Ships through a PR with a
-Status like any other work; durable facts about a dependency also belong
-in that dependency's own docs, not only here.
+the evidence. On no new complexity the spike closes and a fresh ticket
+carries the work; on new complexity the issue that prompted the spike
+stays open as the parent, with the build hanging off it as sub-issues in
+delivery order. Either way the spike issue closes and is never reused.
+The verdict asks whether the work is as small as the issue assumed, not
+whether the design questions got answered. An investigation records what
+was found, not what was decided — that's an ADR, which it may justify but
+doesn't replace. Ships through a PR with a Status like any other work;
+durable facts about a dependency also belong in that dependency's own
+docs, not only here.
 
 ## Issues
 
